@@ -1,0 +1,240 @@
+@media (max-width: 992px) {
+
+
+#toggleBtn {
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header_container ul {
+  width: 50%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  left: -100%;
+  padding: 20px;
+  transition: 0.3s all;
+}
+.openMenu {
+  left: 0 !important;
+}
+h6 {
+  font-size: 14px;
+}
+h1 {
+  font-size: 25px;
+}
+p {
+  margin-left: auto !important ;
+  max-width: 932px;
+  color: #fff !important;
+  text-align: center;
+  font-size: 15px;
+}
+
+.Brand_app_1 {
+  font-size: 35px;
+}
+.section_home_area_1 {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.section_home_area_left {
+  width: 100%;
+  padding: 15px;
+}
+
+.section_home_area_right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section_home_area_right img {
+  max-width: 90%;
+  height: auto;
+}
+.section_home_area_right img {
+  display: none;
+}
+.section_home_area_left {
+  max-width: 100%;
+  display: flex;
+  text-align: justify;
+}
+.section_home_area {
+  padding: 40px 0px;
+}
+.item_category_area_1 {
+  width: 100%;
+}
+.container_video_left_2 {
+  font-size: 35px;
+}
+.item_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iten_available_1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.iten_available_1 img {
+  margin-left: 0px;
+}
+.iten_available {
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+  text-align: center;
+}
+
+.container_video {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container_video_left {
+  width: 100%;
+  padding: 0 10px;
+  text-align: justify;
+  padding-bottom: 100px;
+  word-spacing: 0px !important;
+  letter-spacing: 0px !important ;
+}
+
+.container_video_Btn {
+  margin-top: 15px;
+}
+
+.container_video_right {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.playBtn {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 129px;
+  left: 159px;
+}
+.review_section_right {
+  display: none;
+}
+.overlay_bg {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.Blog_row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+}
+.Blog_row_1 {
+  width: 100%;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer_section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container_footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.About_us {
+  width: 100%;
+}
+.clickBtn {
+  left: 287px;
+  top: 249px;
+}
+.loction {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 15px;
+  margin-top: 20px;
+}
+.loction_1 {
+  width: 100%;
+}
+form {
+  width: 100%;
+}
+.inputTex {
+  width: 100%;
+}
+.inputTex1 {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+}
+.menu_list_Btn_1 ul{
+        width: 100%;
+  
+    flex-wrap: wrap;
+}
+}
+
+@media (max-width: 530px) {
+  .Brand_app_1 {
+    font-size: 27px;
+  }
+  .container_video_left_2 {
+    font-size: 30px;
+  }
+  .Pizza_Americano{
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .Pizza_Americano_left{
+    width: 100%;
+  }
+  .Pizza_Americano_right{
+        width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (min-height: 990px) {
+  #toggleBtn {
+    display: none;
+  }
+}
